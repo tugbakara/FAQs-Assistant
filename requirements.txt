@@ -1,0 +1,11 @@
+dash
+dash-bootstrap-components
+pandas
+numpy
+sentence-transformers
+scikit-learn
+datasets
+transformers
+torch
+torchaudio
+tqdm

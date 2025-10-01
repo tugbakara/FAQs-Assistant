@@ -1,0 +1,38 @@
+{
+  "model": {
+    "dataset_name": "vishal-burman/c4-faqs",
+    "model_name": "sentence-transformers/all-mpnet-base-v2",
+    "similarity_threshold": 0.78,
+    "max_faqs": null,
+    "cache_file": "faq_embeddings.pkl",
+    "embeddings_cache_file": "faq_embeddings_cache.pkl",
+    "batch_size": 64,
+    "use_gpu": true,
+    "cpu_cores": 4,
+    "embedding_threads": 4,
+    "force_regenerate_embeddings": false
+  },
+  "ui": {
+    "app_title": "FAQs Chatbot",
+    "app_host": "127.0.0.1",
+    "app_port": 8050,
+    "debug_mode": false,
+    "font_playfair_path": "fonts/Playfair_Display/static/PlayfairDisplay-SemiBold.ttf",
+    "font_century_path": "fonts/CenturyGothic/centurygothic.ttf",
+    "icon_enter_path": "icons/enter.png",
+    "icon_ai_path": "icons/ai.png",
+    "icon_user_path": "icons/user.png",
+    "background_images_folder": "bg"
+  },
+  "cache": {
+    "embedding_cache_size": 1000,
+    "query_cache_size": 5000,
+    "cache_ttl_hours": 24,
+    "cache_cleanup_interval_minutes": 60
+  },
+  "data": {
+    "processed_cache_file": "processed_faqs.pkl",
+    "backup_cache_interval_hours": 6,
+    "max_cache_file_size_mb": 500
+  }
+}
