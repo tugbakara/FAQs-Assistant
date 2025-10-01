@@ -54,7 +54,7 @@ AI-powered FAQ chatbot application built with Dash and Sentence Transformers. Th
    
    Open your browser and navigate to: `http://127.0.0.1:8050`
 
-## ⚙️ Configuration
+## Configuration
 
 ### Model Settings
 
@@ -76,7 +76,7 @@ AI-powered FAQ chatbot application built with Dash and Sentence Transformers. Th
 | `query_cache_size` | Max cached queries | `5000` |
 | `cache_ttl_hours` | Cache time-to-live | `24` |
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 faq-chatbot/
@@ -144,7 +144,7 @@ The app will automatically create a slideshow from all images in this folder.
 2. **Adjust Batch Size**: Increase `batch_size` for faster initialization
 3. **Cache Configuration**: Tune cache sizes based on your usage patterns
 
-## 🔧 Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
@@ -164,11 +164,11 @@ The app will automatically create a slideshow from all images in this folder.
 - **Solution**: Change `app_port` in config.json
 - **Solution**: Kill process using the port: `lsof -ti:8050 | xargs kill -9`
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-## 🔮 Future Enhancements
+## Future Enhancements
 
 - [ ] Multi-language support
 - [ ] Custom dataset upload interface
