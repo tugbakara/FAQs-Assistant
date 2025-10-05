@@ -6,6 +6,8 @@ AI-powered FAQ chatbot application built with Dash and Sentence Transformers. Th
 ![Dash](https://img.shields.io/badge/dash-latest-brightgreen.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 
+<img width="1851" height="932" alt="Screenshot from 2025-10-01 15-04-48" src="https://github.com/user-attachments/assets/fabd3551-5c9b-44d8-b383-ce209b1b3815" />
+
 
 ## Quick Start
 
